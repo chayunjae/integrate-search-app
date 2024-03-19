@@ -1,9 +1,13 @@
 import React from "react";
+import BaseLayout from "./layout/BaseLayout";
+import SEARCH from './components/Search'
 
-const App = () => (
-    <>
-        <h1>React without CRA...TEST2</h1>
-    </>
-);
+function App() {
+    return (
+        <BaseLayout>
+            <SEARCH />
+        </BaseLayout>
+    )
+}
 
 export default App;
